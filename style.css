@@ -1,0 +1,66 @@
+body{
+
+width:300px;
+padding:15px;
+
+font-family:Arial;
+
+background:#1e1e1e;
+color:white;
+}
+
+h2{
+
+text-align:center;
+}
+
+input{
+
+width:100%;
+padding:10px;
+
+margin-bottom:10px;
+
+border-radius:8px;
+border:none;
+}
+
+button{
+
+width:100%;
+padding:10px;
+
+border:none;
+
+border-radius:8px;
+
+cursor:pointer;
+}
+
+#response{
+
+margin-top:15px;
+
+padding:10px;
+
+min-height:100px;
+
+background:#2c2c2c;
+
+border-radius:8px;
+
+overflow:auto;
+}
+/* style.css *//* style.css */
+#ai-companion-sidebar {
+    position: fixed !important;
+    top: 0 !important;
+    right: 0 !important;
+    width: 400px !important;
+    height: 100vh !important;
+    background: #ffffff !important;
+    box-shadow: -5px 0 20px rgba(0,0,0,0.3) !important;
+    z-index: 2147483647 !important; /* Forces it to sit strictly on top */
+    border-left: 1px solid #ccc !important;
+    transition: transform 0.3s ease !important;
+}
